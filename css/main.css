@@ -380,4 +380,123 @@ h1 {
 .answer {
   font-style: italic; }
 
+.hidden {
+  display: none; }
+
+#q1a:checked ~ #q1a2 {
+  display: block; }
+
+#q1b:checked ~ #q1b2 {
+  display: block; }
+
+#q1c:checked ~ #q1c2 {
+  display: block; }
+
+#q1a2a:checked ~ #q1a2a3 {
+  display: block; }
+
+#q1a2b:checked ~ #q1a2b3 {
+  display: block; }
+
+#q1a2c:checked ~ #q1a2c3 {
+  display: block; }
+
+#q1b2a:checked ~ #q1b2a3 {
+  display: block; }
+
+#q1b2b:checked ~ #q1b2b3 {
+  display: block; }
+
+#q1b2c:checked ~ #q1b2c3 {
+  display: block; }
+
+#q1c2a:checked ~ #q1c2a3 {
+  display: block; }
+
+#q1c2b:checked ~ #q1c2b3 {
+  display: block; }
+
+#q1c2c:checked ~ #q1c2c3 {
+  display: block; }
+
+#q1a2a3a:checked ~ #q1a2a3a4 {
+  display: block; }
+
+#q1a2a3b:checked ~ #q1a2a3b4 {
+  display: block; }
+
+#q1a2a3c:checked ~ #q1a2a3c4 {
+  display: block; }
+
+#q1a2b3a:checked ~ #q1a2b3a4 {
+  display: block; }
+
+#q1a2b3b:checked ~ #q1a2b3b4 {
+  display: block; }
+
+#q1a2b3c:checked ~ #q1a2b3c4 {
+  display: block; }
+
+#q1a2c3a:checked ~ #q1a2c3a4 {
+  display: block; }
+
+#q1a2c3b:checked ~ #q1a2c3b4 {
+  display: block; }
+
+#q1a2c3c:checked ~ #q1a2c3c4 {
+  display: block; }
+
+#q1b2a3a:checked ~ #q1b2a3a4 {
+  display: block; }
+
+#q1b2a3b:checked ~ #q1b2a3b4 {
+  display: block; }
+
+#q1b2a3c:checked ~ #q1b2a3c4 {
+  display: block; }
+
+#q1b2b3a:checked ~ #q1b2b3a4 {
+  display: block; }
+
+#q1b2b3b:checked ~ #q1b2b3b4 {
+  display: block; }
+
+#q1b2b3c:checked ~ #q1b2b3c4 {
+  display: block; }
+
+#q1b2c3a:checked ~ #q1b2c3a4 {
+  display: block; }
+
+#q1b2c3b:checked ~ #q1b2c3b4 {
+  display: block; }
+
+#q1b2c3c:checked ~ #q1b2c3c4 {
+  display: block; }
+
+#q1c2a3a:checked ~ #q1c2a3a4 {
+  display: block; }
+
+#q1c2a3b:checked ~ #q1c2a3b4 {
+  display: block; }
+
+#q1c2a3c:checked ~ #q1c2a3c4 {
+  display: block; }
+
+#q1c2b3a:checked ~ #q1c2b3a4 {
+  display: block; }
+
+#q1c2b3b:checked ~ #q1c2b3b4 {
+  display: block; }
+
+#q1c2b3c:checked ~ #q1c2b3c4 {
+  display: block; }
+
+#q1c2c3a:checked ~ #q1c2c3a4 {
+  display: block; }
+
+#q1c2c3b:checked ~ #q1c2c3b4 {
+  display: block; }
+
+#q1c2c3c:checked ~ #q1c2c3c4 {
+  display: block; }
 /*# sourceMappingURL=main.css.map */
