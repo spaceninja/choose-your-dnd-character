@@ -383,6 +383,9 @@ h1 {
 .hidden {
   display: none; }
 
+footer {
+  margin-top: 2em; }
+
 #q1a:checked ~ #q1a2 {
   display: block; }
 

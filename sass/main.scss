@@ -42,6 +42,10 @@ h1 {
     @include hidden();
 }
 
+footer {
+    margin-top: 2em;
+}
+
 #q1a:checked ~ #q1a2 { @include visible(); }
 #q1b:checked ~ #q1b2 { @include visible(); }
 #q1c:checked ~ #q1c2 { @include visible(); }
