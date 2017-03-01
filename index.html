@@ -1,54 +1,179 @@
-<h1>Choose Your D&D Character on GitHub!</h1>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Choose Your D&D Character</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<h1>Form Title</h1>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
 
-<h2>Question One</h2>
+<h1>Choose Your D&D Character</h1>
+
+<p class="question">Would you like to fight, sneak, or use magic?</p>
 <input type="radio" name="q1" id="q1a">
-<label for="q1a">Answer A</label>
+<label for="q1a">Fight</label>
 <input type="radio" name="q1" id="q1b">
-<label for="q1b">Answer B</label>
+<label for="q1b">Sneak</label>
 <input type="radio" name="q1" id="q1c">
-<label for="q1c">Answer C</label>
+<label for="q1c">Use Magic</label>
 
+<!-- Fighter Path -->
 <div id="q1a2" class="hidden">
-  <h2>Question Two</h2>
-  <input type="radio" name="q2" id="q1a2a">
-  <label for="q1a2a">Answer A</label>
-  <input type="radio" name="q2" id="q1a2b">
-  <label for="q1a2b">Answer B</label>
-  <input type="radio" name="q2" id="q1a2c">
-  <label for="q1a2c">Answer C</label>
+    <p class="question">Are you a good fighter because you go into a rage, because you've committed yourself to training, or because you've devoted yourself to an ideal?</p>
+    <input type="radio" name="q2" id="q1a2a">
+    <label for="q1a2a">Rage</label>
+    <input type="radio" name="q2" id="q1a2b">
+    <label for="q1a2b">Training</label>
+    <input type="radio" name="q2" id="q1a2c">
+    <label for="q1a2c">Idealist</label>
 
-  <p id="q1a2a3" class="hidden">Progressive 1A 2A</p>
-  <p id="q1a2b3" class="hidden">Progressive 1A 2B</p>
-  <p id="q1a2c3" class="hidden">Progressive 1A 2C</p>
+    <!-- Rage Path -->
+    <div id="q1a2a3" class="hidden">
+        <p class="answer">Human Barbarian Berserker</p>
+    </div>
+
+    <!-- Training Path -->
+    <div id="q1a2b3" class="hidden">
+        <p class="question">Did you train in a monastary, rise the ranks as a soldier, or did you study to enhance your fighting ability with spells?</p>
+        <input type="radio" name="q3" id="q1a2b3a">
+        <label for="q1a2b3a">Monastary</label>
+        <input type="radio" name="q3" id="q1a2b3b">
+        <label for="q1a2b3b">Soldier</label>
+        <input type="radio" name="q3" id="q1a2b3c">
+        <label for="q1a2b3c">Magic</label>
+
+        <!-- Monastary Path -->
+        <div id="q1a2b3a4" class="hidden">
+            <p class="answer">Halfling Monk: Way of the Open Fist</p>
+        </div>
+
+        <!-- Soldier Path -->
+        <div id="q1a2b3b4" class="hidden">
+            <p class="answer">Human Fighter: Champion</p>
+        </div>
+
+        <!-- Magic Path -->
+        <div id="q1a2b3c4" class="hidden">
+            <p class="answer">High Elf Fighter: Eldritch Knight</p>
+        </div>
+    </div>
+
+    <!-- Idealist Path -->
+    <div id="q1a2c3" class="hidden">
+        <p class="question">Are you devoted to protecting the innocent, or to punishing the guilty?</p>
+        <input type="radio" name="q3" id="q1a2c3a">
+        <label for="q1a2c3a">Protect the Innocent</label>
+        <input type="radio" name="q3" id="q1a2c3b">
+        <label for="q1a2c3b">Punish the Guilty</label>
+
+        <!-- Protect Innocent Path -->
+        <div id="q1a2c3a4" class="hidden">
+            <p class="answer">Human Paladin: Oath of Devotion</p>
+        </div>
+
+        <!-- Punish Guilty Path -->
+        <div id="q1a2c3b4" class="hidden">
+            <p class="answer">Half-Orc Paladin: Oath of Vengeance</p>
+        </div>
+    </div>
 </div>
 
-
+<!-- Sneaky Path -->
 <div id="q1b2" class="hidden">
-    <h2>Question Two</h2>
-  <input type="radio" name="q2" id="q1b2a">
-  <label for="q1b2a">Answer A</label>
-  <input type="radio" name="q2" id="q1b2b">
-  <label for="q1b2b">Answer B</label>
-  <input type="radio" name="q2" id="q1b2c">
-  <label for="q1b2c">Answer C</label>
+    <p class="question">Are you a hunter, a thief, or an assassin?</p>
+    <input type="radio" name="q2" id="q1b2a">
+    <label for="q1b2a">Hunter</label>
+    <input type="radio" name="q2" id="q1b2b">
+    <label for="q1b2b">Thief</label>
+    <input type="radio" name="q2" id="q1b2c">
+    <label for="q1b2c">Assassin</label>
 
-  <p id="q1b2a3" class="hidden">Progressive 1B 2A</p>
-  <p id="q1b2b3" class="hidden">Progressive 1B 2B</p>
-  <p id="q1b2c3" class="hidden">Progressive 1B 2C</p>
+    <!-- Hunter Path -->
+    <div id="q1b2a3" class="hidden">
+        <p class="answer">Wood Elf Ranger</p>
+    </div>
+
+    <!-- Thief Path -->
+    <div id="q1b2b3" class="hidden">
+        <p class="answer">Halfling Rogue</p>
+    </div>
+
+    <!-- Assassin Path -->
+    <div id="q1b2c3" class="hidden">
+        <p class="answer">Drow Rogue</p>
+    </div>
 </div>
 
+<!-- Magic Path -->
 <div id="q1c2" class="hidden">
-    <h2>Question Two</h2>
-  <input type="radio" name="q2" id="q1c2a">
-  <label for="q1c2a">Answer A</label>
-  <input type="radio" name="q2" id="q1c2b">
-  <label for="q1c2b">Answer B</label>
-  <input type="radio" name="q2" id="q1c2c">
-  <label for="q1c2c">Answer C</label>
+    <p class="question">Do you use your magic to help others, shapeshift into animals, or cast amazing spells?</p>
+    <input type="radio" name="q2" id="q1c2a">
+    <label for="q1c2a">Help Others</label>
+    <input type="radio" name="q2" id="q1c2b">
+    <label for="q1c2b">Shapeshift</label>
+    <input type="radio" name="q2" id="q1c2c">
+    <label for="q1c2c">Amazing Spells</label>
 
-  <p id="q1c2a3" class="hidden">Progressive 1C 2A</p>
-  <p id="q1c2b3" class="hidden">Progressive 1C 2B</p>
-  <p id="q1c2c3" class="hidden">Progressive 1C 2C</p>
+    <!-- Helpful Path -->
+    <div id="q1c2a3" class="hidden">
+        <p class="question">Do you help others by healing the injured, terrifying the non-believers, or by inspiring others with bawdy songs?</p>
+        <input type="radio" name="q3" id="q1c2a3a">
+        <label for="q1c2a3a">Heal the Injured</label>
+        <input type="radio" name="q3" id="q1c2a3b">
+        <label for="q1c2a3b">Terrify Unbelievers</label>
+        <input type="radio" name="q3" id="q1c2a3c">
+        <label for="q1c2a3c">Inspire with Songs</label>
+
+        <!-- Healer Path -->
+        <div id="q1c2a3a4" class="hidden">
+            <p class="answer">Dwarf Cleric: Life Domain</p>
+        </div>
+
+        <!-- Terrify Path -->
+        <div id="q1c2a3b4" class="hidden">
+            <p class="answer">Human Cleric: Tempest Domain</p>
+        </div>
+
+        <!-- Inspire Path -->
+        <div id="q1c2a3c4" class="hidden">
+            <p class="answer">Half-Elf Bard: College of Lore</p>
+        </div>
+    </div>
+
+    <!-- Shapshifter Path -->
+    <div id="q1c2b3" class="hidden">
+        <p class="answer">Human Druid: Circle of the Moon</p>
+    </div>
+
+    <!-- Spellcaster Path -->
+    <div id="q1c2c3" class="hidden">
+        <p class="question">Did you gain your magical powers from a powerful ancestor, by making a deal with a powerful patron, or through careful study?</p>
+        <input type="radio" name="q3" id="q1c2c3a">
+        <label for="q1c2c3a">Ancestor</label>
+        <input type="radio" name="q3" id="q1c2c3b">
+        <label for="q1c2c3b">Pact</label>
+        <input type="radio" name="q3" id="q1c2c3c">
+        <label for="q1c2c3c">Study</label>
+
+        <!-- Sorcerer Path -->
+        <div id="q1c2c3a4" class="hidden">
+            <p class="answer">Dragonborn Sorcerer: Draconic Bloodline</p>
+        </div>
+
+        <!-- Warlock Path -->
+        <div id="q1c2c3b4" class="hidden">
+            <p class="answer">Tiefling Warlock: Fiend Patron</p>
+        </div>
+
+        <!-- Wizard Path -->
+        <div id="q1c2c3c4" class="hidden">
+            <p class="answer">High Elf Wizard: School of Evocation</p>
+        </div>
+    </div>
 </div>
+
+</body>
+</html>

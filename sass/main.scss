@@ -1,0 +1,31 @@
+@import "normalize";
+
+html {
+    font-family: -apple-system,
+                 BlinkMacSystemFont,
+                 "Segoe UI",
+                 Roboto,
+                 Oxygen,
+                 Ubuntu,
+                 Cantarell,
+                 "Open Sans",
+                 "Helvetica Neue",
+                 sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+
+h1 {
+    margin: 0 0 .25em;
+}
+
+.question {
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.answer {
+    font-style: italic;
+}
