@@ -31,6 +31,134 @@
 		"oAP": "\/css\/main.css.map",
 		"oF": 0
 		},
+	"\/images\/dragonborn-sorceror.jpg": {
+		"ft": 16384,
+		"iS": 32848,
+		"oA": 0,
+		"oAP": "\/images\/dragonborn-sorceror.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/drow-rogue.jpg": {
+		"ft": 16384,
+		"iS": 14666,
+		"oA": 0,
+		"oAP": "\/images\/drow-rogue.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/dwarf-cleric.jpg": {
+		"ft": 16384,
+		"iS": 32468,
+		"oA": 0,
+		"oAP": "\/images\/dwarf-cleric.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/half-elf-bard.jpg": {
+		"ft": 16384,
+		"iS": 23825,
+		"oA": 0,
+		"oAP": "\/images\/half-elf-bard.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/half-orc-paladin.jpg": {
+		"ft": 16384,
+		"iS": 24345,
+		"oA": 0,
+		"oAP": "\/images\/half-orc-paladin.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/halfling-monk.jpg": {
+		"ft": 16384,
+		"iS": 27357,
+		"oA": 0,
+		"oAP": "\/images\/halfling-monk.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/halfling-rogue.jpg": {
+		"ft": 16384,
+		"iS": 19168,
+		"oA": 0,
+		"oAP": "\/images\/halfling-rogue.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/high-elf-fighter.jpg": {
+		"ft": 16384,
+		"iS": 16065,
+		"oA": 0,
+		"oAP": "\/images\/high-elf-fighter.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/high-elf-wizard.jpg": {
+		"ft": 16384,
+		"iS": 27118,
+		"oA": 0,
+		"oAP": "\/images\/high-elf-wizard.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/human-barbarian.jpg": {
+		"ft": 16384,
+		"iS": 16192,
+		"oA": 0,
+		"oAP": "\/images\/human-barbarian.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/human-cleric.jpg": {
+		"ft": 16384,
+		"iS": 13447,
+		"oA": 0,
+		"oAP": "\/images\/human-cleric.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/human-druid.jpg": {
+		"ft": 16384,
+		"iS": 23720,
+		"oA": 0,
+		"oAP": "\/images\/human-druid.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/human-fighter.jpg": {
+		"ft": 16384,
+		"iS": 24066,
+		"oA": 0,
+		"oAP": "\/images\/human-fighter.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/human-paladin.jpg": {
+		"ft": 16384,
+		"iS": 18892,
+		"oA": 0,
+		"oAP": "\/images\/human-paladin.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/tiefling-warlock.jpg": {
+		"ft": 16384,
+		"iS": 17637,
+		"oA": 0,
+		"oAP": "\/images\/tiefling-warlock.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/wood-elf-ranger.jpg": {
+		"ft": 16384,
+		"iS": 22323,
+		"oA": 0,
+		"oAP": "\/images\/wood-elf-ranger.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,

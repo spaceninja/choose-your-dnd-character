@@ -38,6 +38,15 @@ h1 {
     font-style: italic;
 }
 
+.character-portrait {
+    display: block;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid gold;
+}
+
 .hidden {
     @include hidden();
 }

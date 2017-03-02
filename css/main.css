@@ -380,6 +380,15 @@ h1 {
 .answer {
   font-style: italic; }
 
+.character-portrait {
+  display: block;
+  width: 175px;
+  height: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid gold; }
+
 .hidden {
   display: none; }
 
